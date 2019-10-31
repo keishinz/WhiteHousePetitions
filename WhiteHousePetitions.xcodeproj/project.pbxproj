@@ -13,6 +13,7 @@
 		808EDB21236AFCDE00851D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808EDB1F236AFCDE00851D34 /* Main.storyboard */; };
 		808EDB23236AFCDF00851D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808EDB22236AFCDF00851D34 /* Assets.xcassets */; };
 		808EDB26236AFCDF00851D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808EDB24236AFCDF00851D34 /* LaunchScreen.storyboard */; };
+		808EDB2E236B088700851D34 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808EDB2D236B088700851D34 /* Petition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		808EDB22236AFCDF00851D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808EDB25236AFCDF00851D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		808EDB27236AFCDF00851D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808EDB2D236B088700851D34 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				808EDB19236AFCDE00851D34 /* AppDelegate.swift */,
 				808EDB1B236AFCDE00851D34 /* SceneDelegate.swift */,
-				808EDB1D236AFCDE00851D34 /* ViewController.swift */,
-				808EDB1F236AFCDE00851D34 /* Main.storyboard */,
-				808EDB22236AFCDF00851D34 /* Assets.xcassets */,
+				808EDB2F236B0BD200851D34 /* Models */,
+				808EDB30236B0BE800851D34 /* Controllers */,
+				808EDB31236B0C1A00851D34 /* Views */,
 				808EDB24236AFCDF00851D34 /* LaunchScreen.storyboard */,
+				808EDB22236AFCDF00851D34 /* Assets.xcassets */,
 				808EDB27236AFCDF00851D34 /* Info.plist */,
 			);
 			path = WhiteHousePetitions;
+			sourceTree = "<group>";
+		};
+		808EDB2F236B0BD200851D34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				808EDB2D236B088700851D34 /* Petition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		808EDB30236B0BE800851D34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				808EDB1D236AFCDE00851D34 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		808EDB31236B0C1A00851D34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				808EDB1F236AFCDE00851D34 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				808EDB1E236AFCDE00851D34 /* ViewController.swift in Sources */,
+				808EDB2E236B088700851D34 /* Petition.swift in Sources */,
 				808EDB1A236AFCDE00851D34 /* AppDelegate.swift in Sources */,
 				808EDB1C236AFCDE00851D34 /* SceneDelegate.swift in Sources */,
 			);
