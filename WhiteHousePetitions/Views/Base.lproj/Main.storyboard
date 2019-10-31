@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -52,6 +53,22 @@
             </objects>
             <point key="canvasLocation" x="1726.0869565217392" y="-28.125"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="hh4-58-aet">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="4uV-QW-bor" customClass="DetailViewController" customModule="WhiteHousePetitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6fB-2y-YEq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PxK-tB-rSr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qed-ln-2hX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wIf-l2-Pag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2539" y="-34"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="4fR-Ob-XGB">
             <objects>
@@ -77,6 +94,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="6W4-q3-xjZ"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3Vz-Ee-PfK">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
